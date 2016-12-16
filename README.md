@@ -5,7 +5,7 @@ I designed this dashboard **in my spare time** as a way to have quick visibility
 
 ![alt text](http://i.imgur.com/BmZ4CxB.jpg "Nagios Dashboard")
 
-## Clean and focused on troubles
+## Focused on alerts
 * If a host is OK, it will not show on the dashboard
 * If a host has notifications disabled, it will not show on the dashboard
 * Any host or service in trouble will show on the board
