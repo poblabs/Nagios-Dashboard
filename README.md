@@ -10,7 +10,10 @@ I designed this dashboard **in my spare time** as a way to have quick visibility
 ![alt text](http://i.imgur.com/hxQxzkQ.png "Nagios Dashboard - All acknowledged or OK")
 
 ## Requirements
-You need to have a working installation of MK LiveStatus for this dashboard to work. MK LiveStatus is available as a package on many Linux distributions for easy installation. More details on their website: https://mathias-kettner.de/checkmk_livestatus.html
+*You need to have a working installation of MK LiveStatus for this dashboard to work. MK LiveStatus is available as a package on many Linux distributions for easy installation. More details on their website: https://mathias-kettner.de/checkmk_livestatus.html
+* Apache
+* Apache mod_rewrite module if you wish to use the Team Filtering (see below)
+* PHP 5.3.3 or newer
 
 ## Focused on alerts
 * Any host or service in trouble will show on the dashboard
