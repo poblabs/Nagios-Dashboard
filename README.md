@@ -17,7 +17,7 @@ I designed this dashboard **in my spare time** as a way to have quick visibility
 Set it and forget it. The dashboard will constantly refresh the body content with new alerts. Default is 5 seconds, but it is configurable. 
 
 ## Team filtering
-The dashboard is also hostgroup aware. If you have multiple teams that use your Nagios system, you can group their items into a hostgroup, then give them the URL for their items (e.g. https://nagios/ops/hostgroup/. This way each team can have their own wall display, or monitor, showing only the items they are responsible for. 
+The dashboard is also hostgroup aware. If you have multiple teams that use your Nagios system, group their items into a hostgroup and give them the URL for their items ( e.g. https://nagios/ops/hostgroup/ ). Each team can have their own wall display, or monitor/tablet which shows them only the items they are responsible for. 
 
 ## Mobile responsive design
 You can check the dashboard from your mobile devices, the design will change to try and fit everything in. 
