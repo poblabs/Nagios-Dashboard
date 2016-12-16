@@ -1,0 +1,627 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+html {
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	font-size:62.5%;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+
+body {
+	font-family:Ubuntu,Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	line-height:1.428571429;
+	/* For the TV. Was #fff; and color was 333*/
+	color:#fff;
+	background-color:#000;
+	/* background-color:#222; */
+	margin:0;
+	/*overflow-x: hidden;*/
+}
+
+a { color: #333 !important; }
+
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: "Ubuntu",Tahoma,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+
+.inner { border-left:2px solid #fff; }
+
+/* Standard width (1080 or higher) */
+
+body { font-size:18px; }
+
+h1,.h1{font-size:36px;}
+/* For the TV. Was font-size 30 */
+h2,.h2{font-size:80px;}
+h3,.h3{font-size:24px; padding-top:10px;}
+h4,.h4{font-size:18px;}
+h5,.h5{font-size:14px;}
+h6,.h6{font-size:12px;}
+
+h1, h2, h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left:10px;
+}
+
+#clock { 
+	font-size:25px;
+	float:right; 
+}
+.clear { clear:both; }
+
+#content {
+	margin: 10px;
+}
+
+.headerOuter {
+	text-align:center;
+	margin-top:10px;
+	/* margin-right: 0px; */
+	/* margin-left: 0px; */
+	height:80px; 
+	margin-bottom:10px;
+}
+.headerTitle {
+	/* float:left; Disabled 1/11/2016 */
+	width: 450px;
+	position: relative;
+	min-height: 1px;
+	padding-right: 0px;
+	padding-left: 25px;
+	font-size:22px;
+}
+.headerTitle  h1  {
+	margin: 0px;
+}
+.headerStats {
+	font-size:30px;
+	margin-bottom:80px;
+}
+.coSpaces {
+	text-align:right;
+	margin-right:160px;
+	padding:10px;
+	font-size:40px;
+}
+.coSpaces a { color:white !important; }
+.coSpaces img { margin-top:2px; }
+
+.temp {
+	float:left;
+	text-align:right;
+	margin-left:150px;
+	margin-top:10px; 
+	padding:10px;
+}
+
+.tempOK { background:green;}
+.tempBAD { background:#ff3300; }
+
+
+#header_nagios_totals { margin:0px; }
+
+.headerStatusOuter {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.headerStatus {
+	width: 100%;
+	margin-bottom:2em;
+}
+
+.activeStatusOuter {
+	width:100%;
+	/* margin-right: -15px; */
+	/* margin-left: -15px; */
+	margin-bottom: 20px;
+	border-top: 4px double lightgray;
+}
+.activeStatus {
+	position: relative;
+	min-height: 1px;
+	/* padding-right: 15px; */
+	/* padding-left: 15px; */
+}
+
+/* For the TV status */
+.activeStatus .hostname, 
+.activeStatus .hostname a, 
+.activeStatus .status, 
+.activeStatus .service a { 
+	font-size:35px;
+}
+.hostname,
+.hostname a { 
+	font-size:35px;
+}
+
+.ackdStatusOuter {
+	width:100%;
+	/* margin-right: -15px; */
+	/* margin-left: -15px; */
+	padding-bottom:20px;
+	border-top: 4px double lightgray;
+	/* border-bottom: 4px double lightgray; */
+}
+.ackdStatus {
+	position: relative;
+	min-height: 1px;
+	/* padding-right: 15px; */
+	/* padding-left: 15px; */
+}
+
+table {
+	width: 100%;
+	border: none;
+	border-spacing: 2px;
+	/*white-space: nowrap;*/
+	text-align:center;
+}
+
+table a { 
+	text-decoration:underline; 
+	font-weight:bold;
+}
+
+td {
+	padding:2px;
+}
+
+.alert {
+	padding: 5px 13px !important;
+	border-radius: 0px !important;
+	margin-bottom: 2px !important;
+}
+.alert-success {
+	color: white;
+	/* background-color: #00cc33; */
+	/* background-color: #27ae60; new */
+	background-color: green;
+	border-color: #d6e9c6;
+}
+
+.alert-down, .alert-critical {
+	/*color: #b94a48;*/
+	color:white;
+	background-color: #ff3300;
+	border-color: #eed3d7;
+}
+.alert-down th, .alert-critical th {
+	color:#333;
+}
+.alert-down a, .alert-critical a {
+	color:white !important;
+}
+
+.alert-warning {
+	color: #333;
+	/* For TV. Was ffda9f */
+	/* background-color: #ffa500; */
+	background-color: orange;
+	border-color: #fbeed5;
+}
+
+.alert-unknown {
+	color: #333;
+	background-color: #e2abdc;
+	border-color: #bf44b2;
+}
+.alert-invalid-hostgroup {
+	text-align:center;
+	font-size:25px;
+	padding: 10px !important;
+	margin-bottom: 2px !important;
+	color:white;
+	background-color: #ff3300;
+	border-color: #eed3d7;
+}
+
+.alert-blank {
+	height:25px;
+}
+
+.footer {
+	width:100%;
+}
+
+.footerStatus { 
+	text-align:center;
+	padding:10px 0 10px 0;
+}
+
+.footer_stats { 
+	text-align:center;
+	padding:5px 0 10px 0;
+}
+
+/* Clock and Weather Bar */
+.locationBar { 
+	/* float:right; */
+	margin:0 auto;
+	text-align:center;
+	margin-bottom:10px; 
+	padding:5px;
+	background:#2b2b2b
+}
+.clock_container {
+	/* float:left; */
+	display: inline-block;
+	*display: inline; /* IE Hack for inline-block */
+	zoom: 1; /* IE Hack for inline-block */
+	margin-right:2px;
+	width:250px;
+	position: relative;
+	/* border-left:2px solid #fff; */
+}
+.clock_container .lbl {
+	font-size:25px;
+	color: #fff;
+	font-weight:bold;
+	/* line-height: 22px; */
+	/* background: url(../images/clock_label.png); */
+	text-align: center;
+	/* height: 27px; */
+	/* width: 160px; */
+	margin: 0 auto;
+}
+
+.digital {
+	font-weight:bold;
+	font-size: 25px;
+	color: #fff;
+	text-align:center;
+}
+
+#weather { 
+    /* background-position: 0 -2px; */ 
+    height: 40px; 
+    width: 40px; 
+    /* float: left; */ 
+    padding-right:10px; 
+}
+#weather img {
+    /*margin-top:3px;*/
+    width:25px;
+    height:25px;
+}
+
+/*Rain*/
+.weatherIcon-1, .weatherIcon-2, .weatherIcon-3, .weatherIcon-4, .weatherIcon-5, 
+.weatherIcon-6, .weatherIcon-7, .weatherIcon-8, .weatherIcon-9, .weatherIcon-10, 
+.weatherIcon-11, .weatherIcon-12, .weatherIcon-17, .weatherIcon-18, .weatherIcon-28, .weatherIcon-35, 
+.weatherIcon-37, .weatherIcon-38, .weatherIcon-39, .weatherIcon-40, .weatherIcon-45, 
+.weatherIcon-46, .weatherIcon-47 {background: url(images/weather/rain.png) no-repeat;  padding-left: 36px}
+
+/*Wind*/
+.weatherIcon-0, .weatherIcon-23, .weatherIcon-24 {background: url(images/weather/wind.png) no-repeat; padding-left: 40px}
+
+/*Clear Night*/
+.weatherIcon-31, .weatherIcon-33 {background: url(images/weather/clear-night.png) no-repeat; padding-left: 24px}
+
+/*Clear Day*/
+.weatherIcon-32, .weatherIcon-34, .weatherIcon-36 {background: url(images/weather/fair-day.png) no-repeat; padding-left: 24px}
+
+/*Cloudy Night*/
+.weatherIcon-27, .weatherIcon-29  {background: url(images/weather/mostly-clear-night.png) no-repeat; padding-left: 36px}
+
+/*Cloudy Day*/
+.weatherIcon-19, .weatherIcon-20,  .weatherIcon-21, .weatherIcon-22, .weatherIcon-25, .weatherIcon-26, .weatherIcon-30, .weatherIcon-44  {background: url(images/weather/mostly-clear.png) no-repeat; padding-left: 40px}
+
+/*Snow*/
+.weatherIcon-13, .weatherIcon-14, .weatherIcon-15, .weatherIcon-16, .weatherIcon-41, .weatherIcon-42, .weatherIcon-43   {background: url(images/weather/snowing.png) no-repeat; padding-left: 38px}
+
+
+
+
+/* Laptop screens and other */
+/* @media only screen and (min-device-width : 1200px) and (max-device-width : 1835px) { */
+@media all and (min-device-width : 1200px) and (max-device-width : 1835px) { 
+
+	h1,.h1{font-size:36px;}
+	/* For the TV. Was font-size 30 */
+	h2,.h2{font-size:50px;}
+	h3,.h3{font-size:24px; padding-top:10px;}
+	h4,.h4{font-size:18px;}
+	h5,.h5{font-size:14px;}
+	h6,.h6{font-size:12px;}
+
+	h1, h2, h3 {
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left:10px;
+	}
+
+
+	#clock { 
+		font-size:25px;
+		float:right; 
+	}
+	
+	#clock_chicago { display:none; }
+	#clock_hongkong { display:none; }
+	#clock_tokyo { display:none; }
+	.clear { clear:both; }
+
+	#content {
+		margin: 10px;
+	}
+	
+	.temp {
+		display:none;
+	}
+
+	.headerOuter {
+		text-align:center;
+		margin-top:10px;
+		/* margin-right: 0px; */
+		/* margin-left: 0px; */
+		height:80px; 
+	}
+	.headerTitle {
+		float:left;
+		width: 450px;
+		position: relative;
+		min-height: 1px;
+		padding-right: 0px;
+		padding-left: 25px;
+		font-size:22px;
+	}
+	.headerTitle  h1  {
+		margin: 0px;
+	}
+
+	.headerStatusOuter {
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	.headerStatus {
+		width: 100%;
+		margin-bottom:2em;
+	}
+	
+	.headerStats {
+		font-size:30px;
+		margin-bottom:80px;
+	}
+	.coSpaces {
+		text-align:right;
+		margin-right:160px;
+		padding:10px;
+	}
+	.coSpaces img { margin-top:2px; }
+	.temp {
+		float:right;
+		text-align:right;
+		margin-right:265px;
+		padding:10px;
+	}
+	.tempOK { background:#00cc33;}
+	.tempBAD { background:#ff3300; }
+
+	.activeStatusOuter {
+		width:100%;
+		/* margin-right: -15px; */
+		/* margin-left: -15px; */
+		margin-bottom: 20px;
+		border-top: 4px double lightgray;
+	}
+	.activeStatus {
+		position: relative;
+		min-height: 1px;
+		/* padding-right: 15px; */
+		/* padding-left: 15px; */
+	}
+
+	/* For the TV status */
+	.activeStatus .hostname, 
+	.activeStatus .hostname a, 
+	.activeStatus .status, 
+	.activeStatus .service a { 
+		font-size:25px;
+	}
+
+	.ackdStatusOuter {
+		width:100%;
+		/* margin-right: -15px; */
+		/* margin-left: -15px; */
+		padding-bottom:20px;
+		border-top: 4px double lightgray;
+		border-bottom: 4px double lightgray;
+	}
+	.ackdStatus {
+		position: relative;
+		min-height: 1px;
+		/* padding-right: 15px; */
+		/* padding-left: 15px; */
+	}
+
+	table {
+		width: 100%;
+		border: none;
+		border-spacing: 2px;
+		/*white-space: nowrap;*/
+		text-align:center;
+	}
+
+	table a { 
+		text-decoration:underline; 
+		font-weight:bold;
+	}
+
+	td {
+		padding:2px;
+	}
+
+	.alert {
+		padding: 5px 13px !important;
+		border-radius: 0px !important;
+		margin-bottom: 2px !important;
+	}
+	.alert-success {
+		color: white;
+		/* background-color: #00cc33; */
+		/* background-color: #27ae60; */
+		background-color: green;
+		border-color: #d6e9c6;
+	}
+
+	.alert-down, .alert-critical {
+		/*color: #b94a48;*/
+		color:white;
+		background-color: #ff3300;
+		border-color: #eed3d7;
+	}
+	.alert-down th, .alert-critical th {
+		color:#333;
+	}
+	.alert-down a, .alert-critical a {
+		color:white !important;
+	}
+
+	.alert-warning {
+		color: #333;
+		/* For TV. Was ffda9f */
+		background-color: #ffa500;
+		border-color: #fbeed5;
+	}
+
+	.alert-unknown {
+		color: #333;
+		background-color: #e2abdc;
+		border-color: #bf44b2;
+	}
+
+	.footer {
+		width:100%;
+	}
+
+	.footerStatus { 
+		text-align:center;
+		padding:20px 0 10px 0;
+	}
+
+	/* Clock and Weather Bar */
+	.locationBar { 
+		/* float:right; */
+		margin:0 auto;
+		text-align:center;
+		margin-bottom:10px; 
+		padding:5px;
+		background:#2b2b2b
+	}
+	.clock_container {
+		/* float:left; */
+		display:inline-block;
+		margin-right:2px;
+		width:250px;
+		position: relative;
+		/* border-left:2px solid #fff; */
+	}
+	.clock_container .lbl {
+		font-size:25px;
+		color: #fff;
+		font-weight:bold;
+		/* line-height: 22px; */
+		/* background: url(../images/clock_label.png); */
+		text-align: center;
+		/* height: 27px; */
+		/* width: 160px; */
+		margin: 0 auto;
+	}
+
+	.digital {
+		font-weight:bold;
+		font-size: 25px;
+		color: #fff;
+		text-align:center;
+	}
+
+}
+
+/* iPhone & small screen styles */
+/* @media only screen and (min-device-width : 100px) and (max-device-width : 1199px) { */
+@media all and (min-device-width : 100px) and (max-device-width : 1199px) { 
+	.headerTitle { width:100%; padding:0; }
+	.headerStats { display:none; }
+	.locationBar { display:none; }
+	.coSpaces { display:none; }
+	.ackdStatusOuter h1 { font-size:20px; }
+	h2 { margin:0; font-size:40px; }
+	.title { display:none; }
+	.alert { 
+		/* padding:0 !important; */
+		margin-bottom:15px !important; 
+	}
+	.hostname, .hostname a { font-size:initial; }
+	
+	
+	/* Table style from: http://css-tricks.com/responsive-data-tables/ */
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	.table_header { display:none; }
+	
+	#header_nagios_totals { display:none; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		/* padding-left: 50%; */
+		word-wrap:break-word;
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	.host td:nth-of-type(1):before { content: "Number"; }
+	.host td:nth-of-type(2):before { content: "Host"; }
+	.host td:nth-of-type(3):before { content: "Status"; }
+	.host td:nth-of-type(4):before { content: "Duration"; }
+	.host td:nth-of-type(5):before { content: "Information"; }
+	.host td:nth-of-type(6):before { content: "Author"; }
+	.host td:nth-of-type(7):before { content: "Comment"; }
+	
+	.service td:nth-of-type(1):before { content: "Number"; }
+	.service td:nth-of-type(2):before { content: "Host"; }
+	.service td:nth-of-type(3):before { content: "Service"; }
+	.service td:nth-of-type(4):before { content: "Status"; }
+	.service td:nth-of-type(5):before { content: "Duration"; }
+	.service td:nth-of-type(6):before { content: "Output"; }
+	.service td:nth-of-type(7):before { content: "Author"; }
+	.service td:nth-of-type(8):before { content: "Comment"; }
+}
