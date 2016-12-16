@@ -6,7 +6,7 @@ I designed this dashboard **in my spare time** as a way to have quick visibility
 ![alt text](http://i.imgur.com/BmZ4CxB.jpg "Nagios Dashboard")
 
 ## Requirements
-You need to have a working installation of MK LiveStatus for this dashboard to work. More details: https://mathias-kettner.de/checkmk_livestatus.html
+You need to have a working installation of MK LiveStatus for this dashboard to work. MK LiveStatus is available as a package on many Linux distributions for easy installation. More details on their website: https://mathias-kettner.de/checkmk_livestatus.html
 
 ## Focused on alerts
 * If a host is OK, it will not show on the dashboard
