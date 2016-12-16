@@ -11,7 +11,7 @@ require_once( "./functions.php" );
 date_default_timezone_set( $defaultTimeZone );
 
 // Initial check if the settings have been edited.
-if (SETTINGS_EDITED == false) {
+if ( SETTINGS_EDITED == false ) {
     die( "Please edit the config.php file before continuing." );
 }
 
