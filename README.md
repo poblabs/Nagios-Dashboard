@@ -9,11 +9,11 @@ I designed this dashboard **in my spare time** as a way to have quick visibility
 You need to have a working installation of MK LiveStatus for this dashboard to work. MK LiveStatus is available as a package on many Linux distributions for easy installation. More details on their website: https://mathias-kettner.de/checkmk_livestatus.html
 
 ## Focused on alerts
+* Any host or service in trouble will show on the dashboard
+* A clear top banner which is red if any active troubles, or green if all troubles have been acknowledged or no troubles exist
+* If there are any active troubles, and acknowledged troubles, the top banner will only focus on those which have not been acknowledged
 * If a host is OK, it will not show on the dashboard
 * If a host has notifications disabled, it will not show on the dashboard
-* Any host or service in trouble will show on the board
-* A clear top banner which is green if any troubles have been acknowledged, or no troubles exist
-* If there are any active troubles, and acknowledged troubles, the top banner will only focus on those which have not been acknowledged
 * Separation of active versus acknowledged for a quick glance on what troubles need to be focused on
 
 ## Background AJAX updates
