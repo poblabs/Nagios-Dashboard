@@ -1,5 +1,5 @@
 # Nagios Dashboard
-A clean and simple overview of your Nagios environment optimized for wall TV displays. 
+A clean and simple overview of your Nagios environment optimized for wall mounted TV displays. 
 
 I designed this dashboard **in my spare time** as a way to have quick visibility into the health of the Nagios environment from a TV mounted on the wall in our public space - or on a tablet on your desk. It offers a color coded system which helps stand out any troubles that are going on and automatic background updates mean you don't have to constantly refresh the page.
 
